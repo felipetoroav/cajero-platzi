@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cajero automatico</title>
+  <style>
+    body
+    {            
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-image: linear-gradient(to right, #243949 0%, #517fa4 100%); 
+      color: white;                  
+    }
+    h1
+    {
+      text-align: center;
+      font-size: 10vh;
+    }    
+    #casilla
+    {
+      text-align: center;
+      line-height: 70vh;      
+      margin-top: 0%;
+      margin-bottom: 0;     
+    } 
+  </style>
+</head>
+<body>
+  <h1>
+    Bancode
+  </h1>  
+  <p id="casilla">
+    <input type = "number" id = "dinero" />
+    <input type = "button" value = "Extraer" id = "extraer" />
+  </p>
+  <p id = "resultado"></p>
+   
+  <script src = "cajero.js"></script>
+</body>
+</html>
+
